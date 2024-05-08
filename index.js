@@ -178,7 +178,7 @@ function listMenuItemNamesByCategory(menu, category) {
         result.push(ingredient);
 
   })
-  result= listMenuItemNamesByCategory
+  result= listMenuItemNamesByCategory;
 }
 console.log(listMenuItemNamesByCategory(menu, "Main Course"));
 
@@ -236,7 +236,14 @@ console.log(getCheapestMenuItem(menu));
     **********/
 
 function getMenuItemsByIngredient(menu, ingredient) {
-  // Your code here
+  // Your code her
+  const resut = menu.find((ingredient)=>{
+if (ingredient==ingredients.menu)
+    return menu;
+
+  }
+  result = getMenuItemsByIngredient
+)
 }
 
-// console.log(getMenuItemsByIngredient(menu, "Parmesan"));
+console.log(getMenuItemsByIngredient(menu, "Parmesan"));
