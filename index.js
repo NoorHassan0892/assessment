@@ -200,7 +200,7 @@ console.log(listMenuItemNamesByCategory(menu, "Main Course"));
 
 function getCheapestMenuItem(menu) {
   // Your code here
-  const result = menu.fine((price)=>{
+  const result = menu.find((price)=>{
 if (price==Math.Min(...menu.price))
     return menu;
 
